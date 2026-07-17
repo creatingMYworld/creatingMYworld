@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/creatingMYworld/creatingMYworld/main/image.png" alt="GitHub Banner" width="100%">
+</p>
+
+
 <h1 align="center">Hi 👋, I'm Ranga Arun Kumar</h1>
 <h3 align="center">Software Engineer | Java Developer | Full Stack Developer | AI & Distributed Systems Enthusiast</h3>
 
