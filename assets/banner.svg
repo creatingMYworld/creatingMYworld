@@ -1,1 +1,60 @@
+<svg width="1500" height="500" viewBox="0 0 1500 500" xmlns="http://www.w3.org/2000/svg">
 
+<defs>
+
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#0d1117">
+<animate attributeName="stop-color" values="#0d1117;#111827;#0d1117" dur="8s" repeatCount="indefinite"/>
+</stop>
+<stop offset="100%" stop-color="#4f46e5">
+<animate attributeName="stop-color" values="#4f46e5;#2563eb;#4f46e5" dur="8s" repeatCount="indefinite"/>
+</stop>
+</linearGradient>
+
+</defs>
+
+<rect width="1500" height="500" fill="url(#bg)"/>
+
+<text x="80" y="180"
+font-size="72"
+fill="white"
+font-family="Segoe UI"
+font-weight="700">
+Ranga Arun Kumar
+</text>
+
+<text
+x="80"
+y="250"
+font-size="32"
+fill="#D1D5DB"
+font-family="Segoe UI">
+Software Engineer • Java Developer • Full Stack Developer
+</text>
+
+<text
+x="80"
+y="310"
+font-size="26"
+fill="#60A5FA"
+font-family="Segoe UI">
+Data Analytics • Cybersecurity • AI • Data Structures
+</text>
+
+<path d="M0 430 C300 380 600 470 900 420 C1200 370 1400 430 1500 390 L1500 500 L0 500Z"
+fill="#2563EB" opacity="0.35">
+
+<animate attributeName="d"
+dur="8s"
+repeatCount="indefinite"
+
+values="
+M0 430 C300 380 600 470 900 420 C1200 370 1400 430 1500 390 L1500 500 L0 500Z;
+
+M0 420 C250 470 700 360 900 430 C1200 470 1400 380 1500 420 L1500 500 L0 500Z;
+
+M0 430 C300 380 600 470 900 420 C1200 370 1400 430 1500 390 L1500 500 L0 500Z"/>
+
+</path>
+
+</svg>
