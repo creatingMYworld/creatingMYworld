@@ -1,170 +1,109 @@
-<svg width="1500" height="500" viewBox="0 0 1500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1500" height="400" viewBox="0 0 1500 400" fill="none" xmlns="http://www.w3.org/2000/svg">
 
 <defs>
 
 <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-<stop offset="0%" stop-color="#050505"/>
-<stop offset="50%" stop-color="#0B1210"/>
-<stop offset="100%" stop-color="#111111"/>
+  <stop offset="0%" stop-color="#0D1117"/>
+  <stop offset="100%" stop-color="#111827"/>
 </linearGradient>
 
-<linearGradient id="nameGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-<stop offset="0%" stop-color="#7CFFB2">
-<animate attributeName="stop-color"
-values="#7CFFB2;#39FF88;#00C853;#39FF88;#7CFFB2"
-dur="8s"
-repeatCount="indefinite"/>
-</stop>
-
-<stop offset="100%" stop-color="#00C853"/>
+<linearGradient id="title" x1="0%" y1="0%" x2="100%" y2="0%">
+  <stop offset="0%" stop-color="#8BFFB5"/>
+  <stop offset="100%" stop-color="#22C55E"/>
 </linearGradient>
 
 <linearGradient id="wave" x1="0%" y1="0%" x2="100%" y2="0%">
-<stop offset="0%" stop-color="#39FF88" stop-opacity=".18"/>
-<stop offset="100%" stop-color="#00C853" stop-opacity=".45"/>
+  <stop offset="0%" stop-color="#22C55E" stop-opacity="0.10"/>
+  <stop offset="100%" stop-color="#22C55E" stop-opacity="0.45"/>
 </linearGradient>
-
-<filter id="glow">
-<feGaussianBlur stdDeviation="5" result="blur"/>
-<feMerge>
-<feMergeNode in="blur"/>
-<feMergeNode in="SourceGraphic"/>
-</feMerge>
-</filter>
 
 </defs>
 
 <!-- Background -->
+<rect width="1500" height="400" fill="url(#bg)"/>
 
-<rect width="1500" height="500" fill="url(#bg)"/>
-
-<!-- Grid -->
-
-<g opacity=".05">
-
-<path d="M0 70H1500"/>
-<path d="M0 140H1500"/>
-<path d="M0 210H1500"/>
-<path d="M0 280H1500"/>
-<path d="M0 350H1500"/>
-<path d="M0 420H1500"/>
-
-</g>
-
-<!-- Floating dots -->
-
-<circle cx="1180" cy="80" r="3" fill="#39FF88">
-<animate attributeName="cy" values="80;65;80" dur="5s" repeatCount="indefinite"/>
-</circle>
-
-<circle cx="1320" cy="160" r="4" fill="#00C853">
-<animate attributeName="cy" values="160;145;160" dur="6s" repeatCount="indefinite"/>
-</circle>
-
-<circle cx="1410" cy="260" r="2" fill="#7CFFB2">
-<animate attributeName="cy" values="260;245;260" dur="4s" repeatCount="indefinite"/>
-</circle>
+<!-- Decorative circles -->
+<circle cx="1240" cy="80" r="3" fill="#22C55E"/>
+<circle cx="1320" cy="130" r="2" fill="#86EFAC"/>
+<circle cx="1400" cy="70" r="4" fill="#16A34A"/>
+<circle cx="1180" cy="180" r="2" fill="#4ADE80"/>
 
 <!-- Name -->
-
 <text
-x="90"
-y="170"
-font-size="74"
+x="80"
+y="145"
+fill="url(#title)"
+font-size="68"
 font-weight="700"
-font-family="Segoe UI, Inter, Arial"
-fill="url(#nameGradient)"
-filter="url(#glow)">
+font-family="Segoe UI, Arial, sans-serif">
 
 Ranga Arun Kumar
 
 </text>
 
-<!-- Title -->
-
+<!-- Role -->
 <text
-x="92"
-y="235"
-font-size="30"
-font-family="Segoe UI"
-fill="#FFFFFF">
+x="82"
+y="195"
+fill="#F3F4F6"
+font-size="28"
+font-family="Segoe UI, Arial, sans-serif">
 
-Software Engineer • Java Developer • Full Stack Developer
+Software Engineer • Full Stack Developer • Java Developer
 
 </text>
 
 <!-- Skills -->
-
 <text
-x="92"
-y="285"
-font-size="23"
-font-family="Segoe UI"
-fill="#82F9B8">
+x="82"
+y="235"
+fill="#86EFAC"
+font-size="22"
+font-family="Segoe UI, Arial, sans-serif">
 
-Data Analytics • Cybersecurity • AI • Data Structures & Algorithms
+Data Analytics • Cybersecurity • AI/ML • Data Structures & Algorithms
 
 </text>
 
 <!-- Divider -->
-
 <line
-x1="92"
-y1="315"
-x2="770"
-y2="315"
-stroke="#39FF88"
-stroke-opacity=".5"/>
+x1="82"
+y1="255"
+x2="760"
+y2="255"
+stroke="#22C55E"
+stroke-width="2"
+opacity=".5"/>
 
 <!-- Quote -->
-
 <text
-x="92"
-y="360"
+x="82"
+y="295"
+fill="#9CA3AF"
 font-size="20"
-font-family="Segoe UI"
-fill="#A1A1AA">
+font-family="Segoe UI, Arial, sans-serif">
 
-Building scalable software with clean architecture & continuous learning.
+Building scalable software with clean architecture and continuous learning.
 
 </text>
 
-<!-- Tech Pills -->
+<!-- Right Side Skill Cards -->
 
-<g font-family="Segoe UI" font-size="18">
+<rect x="1000" y="90" width="100" height="42" rx="8" fill="#161B22" stroke="#22C55E"/>
+<text x="1032" y="117" fill="#86EFAC" font-size="18" font-family="Segoe UI">Java</text>
 
-<rect x="980" y="120" rx="10" ry="10" width="95" height="42" fill="#101010" stroke="#1DB954"/>
-<text x="1008" y="147" fill="#7CFFB2">Java</text>
+<rect x="1120" y="90" width="110" height="42" rx="8" fill="#161B22" stroke="#22C55E"/>
+<text x="1147" y="117" fill="#86EFAC" font-size="18" font-family="Segoe UI">Python</text>
 
-<rect x="1095" y="120" rx="10" ry="10" width="105" height="42" fill="#101010" stroke="#1DB954"/>
-<text x="1118" y="147" fill="#7CFFB2">Python</text>
+<rect x="1250" y="90" width="100" height="42" rx="8" fill="#161B22" stroke="#22C55E"/>
+<text x="1278" y="117" fill="#86EFAC" font-size="18" font-family="Segoe UI">React</text>
 
-<rect x="1220" y="120" rx="10" ry="10" width="95" height="42" fill="#101010" stroke="#1DB954"/>
-<text x="1243" y="147" fill="#7CFFB2">React</text>
-
-<rect x="1335" y="120" rx="10" ry="10" width="105" height="42" fill="#101010" stroke="#1DB954"/>
-<text x="1356" y="147" fill="#7CFFB2">Node.js</text>
-
-</g>
+<rect x="1370" y="90" width="90" height="42" rx="8" fill="#161B22" stroke="#22C55E"/>
+<text x="1393" y="117" fill="#86EFAC" font-size="18" font-family="Segoe UI">SQL</text>
 
 <!-- Bottom Wave -->
-
 <path
-fill="url(#wave)"
-d="M0 420 C250 360 550 480 800 420 C1050 360 1280 470 1500 390 L1500 500 L0 500 Z">
-
-<animate
-attributeName="d"
-dur="10s"
-repeatCount="indefinite"
-
-values="
-M0 420 C250 360 550 480 800 420 C1050 360 1280 470 1500 390 L1500 500 L0 500 Z;
-
-M0 430 C250 480 600 360 850 430 C1100 490 1320 350 1500 420 L1500 500 L0 500 Z;
-
-M0 420 C250 360 550 480 800 420 C1050 360 1280 470 1500 390 L1500 500 L0 500 Z"/>
-
-</path>
+d="M0 340 C250 300 500 380 750 340 C1000 300 1250 370 1500 330 L1500 400 L0 400 Z"
+fill="url(#wave)"/>
 
 </svg>
