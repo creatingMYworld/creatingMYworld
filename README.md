@@ -1,38 +1,104 @@
-# Hi 👋, I'm Arun Kumar
-
-## 💻 Computer Science Engineering Student
-
-🚀 Passionate about Full Stack Development, Cybersecurity, AI, and Software Engineering.
+<h1 align="center">Hi 👋, I'm Ranga Arun Kumar</h1>
+<h3 align="center">Software Engineer | Java Developer | Full Stack Developer | AI & Distributed Systems Enthusiast</h3>
 
 ---
 
-## 🌱 Currently Learning
+## 👨‍💻 About Me
 
+🎓 B.Tech Computer Science Engineering Student at Amrita Vishwa Vidyapeetham
+
+💡 Passionate about solving real-world problems through software development.
+
+🌱 Currently learning
+- Advanced Java
 - MERN Stack
-- Java
-- Data Structures & Algorithms
 - System Design
+- Data Structures & Algorithms
+
+🎯 Looking for Software Engineer opportunities.
 
 ---
 
-## 🚀 Current Projects
+## 🚀 Tech Stack
 
-- 🏥 Secure Healthcare Platform
-- 🩸 Blood Donation Management System
-- 🧩 Sudoku Solver
-- 🌾 Smart Irrigation System (STM32)
+### Languages
+- Java
+- Python
+- C
+- JavaScript
+- SQL
+
+### Web Development
+- React.js
+- Node.js
+- HTML
+- CSS
+- REST APIs
+
+### Databases
+- MySQL
+- SQLite
+- MongoDB
+
+### Tools
+- Git
+- GitHub
+- VS Code
+- Postman
+
+### Core Subjects
+- Data Structures & Algorithms
+- Object-Oriented Programming
+- DBMS
+- Operating Systems
+- Computer Networks
+- Distributed Systems
+- Software Engineering
 
 ---
 
-## 🛠️ Languages and Tools
+## 💼 Experience
 
-Java • Python • JavaScript • TypeScript • React • Node.js • MongoDB • MySQL • Git • Linux
+**Software Intern – Selevam Medicals**
+
+Developed modules for an AI-powered ERP system using Flask, SQLite and modern web technologies.
 
 ---
 
-## 📫 Connect with Me
+## 📌 Featured Projects
 
-- 📧 Email: your-email@example.com
-- 💼 LinkedIn: (Add your LinkedIn URL later)
+🏥 Secure Healthcare Information & Patient Management System
+
+📂 Mini Google File System (MiniGFS)
+
+🧩 Sudoku Solver using Java Backtracking
+
+🌾 AI Farming Assistant
+
+📊 Student Fashion Preference Analysis
+
+---
+
+## 📈 Current Goals
+
+✔ Master Java Development
+
+✔ Improve System Design
+
+✔ Contribute to Open Source
+
+✔ Build Scalable Full Stack Applications
+
+---
+
+## 📫 Connect With Me
+
+📧 arunarunr24@gmail.com
+
+💼 LinkedIn: https://www.linkedin.com/in/arun-kumar
+
+🌐 GitHub: https://github.com/creatingMYworld
+
+---
 
 ⭐ Thanks for visiting my profile!
