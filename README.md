@@ -1,16 +1,38 @@
-## Hi there 👋
+# Hi 👋, I'm Arun Kumar
 
-<!--
-**creatingMYworld/creatingMYworld** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 💻 Computer Science Engineering Student
 
-Here are some ideas to get you started:
+🚀 Passionate about Full Stack Development, Cybersecurity, AI, and Software Engineering.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 🌱 Currently Learning
+
+- MERN Stack
+- Java
+- Data Structures & Algorithms
+- System Design
+
+---
+
+## 🚀 Current Projects
+
+- 🏥 Secure Healthcare Platform
+- 🩸 Blood Donation Management System
+- 🧩 Sudoku Solver
+- 🌾 Smart Irrigation System (STM32)
+
+---
+
+## 🛠️ Languages and Tools
+
+Java • Python • JavaScript • TypeScript • React • Node.js • MongoDB • MySQL • Git • Linux
+
+---
+
+## 📫 Connect with Me
+
+- 📧 Email: your-email@example.com
+- 💼 LinkedIn: (Add your LinkedIn URL later)
+
+⭐ Thanks for visiting my profile!
