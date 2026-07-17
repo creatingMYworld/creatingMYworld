@@ -1,41 +1,38 @@
-<svg width="1500" height="400" viewBox="0 0 1500 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1500" height="500" viewBox="0 0 1500 500" xmlns="http://www.w3.org/2000/svg">
 
 <defs>
 
+<!-- Background Gradient -->
 <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-  <stop offset="0%" stop-color="#0D1117"/>
-  <stop offset="100%" stop-color="#111827"/>
-</linearGradient>
+<stop offset="0%" stop-color="#0D1117">
+<animate attributeName="stop-color"
+values="#0D1117;#0A1510;#0D1117"
+dur="8s"
+repeatCount="indefinite"/>
+</stop>
 
-<linearGradient id="title" x1="0%" y1="0%" x2="100%" y2="0%">
-  <stop offset="0%" stop-color="#8BFFB5"/>
-  <stop offset="100%" stop-color="#22C55E"/>
-</linearGradient>
+<stop offset="100%" stop-color="#14532D">
+<animate attributeName="stop-color"
+values="#14532D;#16A34A;#14532D"
+dur="8s"
+repeatCount="indefinite"/>
+</stop>
 
-<linearGradient id="wave" x1="0%" y1="0%" x2="100%" y2="0%">
-  <stop offset="0%" stop-color="#22C55E" stop-opacity="0.10"/>
-  <stop offset="100%" stop-color="#22C55E" stop-opacity="0.45"/>
 </linearGradient>
 
 </defs>
 
 <!-- Background -->
-<rect width="1500" height="400" fill="url(#bg)"/>
-
-<!-- Decorative circles -->
-<circle cx="1240" cy="80" r="3" fill="#22C55E"/>
-<circle cx="1320" cy="130" r="2" fill="#86EFAC"/>
-<circle cx="1400" cy="70" r="4" fill="#16A34A"/>
-<circle cx="1180" cy="180" r="2" fill="#4ADE80"/>
+<rect width="1500" height="500" fill="url(#bg)"/>
 
 <!-- Name -->
 <text
 x="80"
-y="145"
-fill="url(#title)"
-font-size="68"
-font-weight="700"
-font-family="Segoe UI, Arial, sans-serif">
+y="180"
+font-size="72"
+fill="white"
+font-family="Inter, Segoe UI, Arial"
+font-weight="700">
 
 Ranga Arun Kumar
 
@@ -43,67 +40,56 @@ Ranga Arun Kumar
 
 <!-- Role -->
 <text
-x="82"
-y="195"
-fill="#F3F4F6"
-font-size="28"
-font-family="Segoe UI, Arial, sans-serif">
+x="80"
+y="250"
+font-size="32"
+fill="white"
+font-family="Inter, Segoe UI, Arial">
 
-Software Engineer • Full Stack Developer • Java Developer
+Software Engineer • Java Developer • Full Stack Developer
 
 </text>
 
 <!-- Skills -->
 <text
-x="82"
-y="235"
+x="80"
+y="310"
+font-size="26"
 fill="#86EFAC"
-font-size="22"
-font-family="Segoe UI, Arial, sans-serif">
+font-family="Inter, Segoe UI, Arial">
 
-Data Analytics • Cybersecurity • AI/ML • Data Structures & Algorithms
+Data Analytics • Cybersecurity • AI • Data Structures & Algorithms
 
 </text>
 
-<!-- Divider -->
+<!-- Decorative Line -->
 <line
-x1="82"
-y1="255"
+x1="80"
+y1="340"
 x2="760"
-y2="255"
+y2="340"
 stroke="#22C55E"
 stroke-width="2"
-opacity=".5"/>
-
-<!-- Quote -->
-<text
-x="82"
-y="295"
-fill="#9CA3AF"
-font-size="20"
-font-family="Segoe UI, Arial, sans-serif">
-
-Building scalable software with clean architecture and continuous learning.
-
-</text>
-
-<!-- Right Side Skill Cards -->
-
-<rect x="1000" y="90" width="100" height="42" rx="8" fill="#161B22" stroke="#22C55E"/>
-<text x="1032" y="117" fill="#86EFAC" font-size="18" font-family="Segoe UI">Java</text>
-
-<rect x="1120" y="90" width="110" height="42" rx="8" fill="#161B22" stroke="#22C55E"/>
-<text x="1147" y="117" fill="#86EFAC" font-size="18" font-family="Segoe UI">Python</text>
-
-<rect x="1250" y="90" width="100" height="42" rx="8" fill="#161B22" stroke="#22C55E"/>
-<text x="1278" y="117" fill="#86EFAC" font-size="18" font-family="Segoe UI">React</text>
-
-<rect x="1370" y="90" width="90" height="42" rx="8" fill="#161B22" stroke="#22C55E"/>
-<text x="1393" y="117" fill="#86EFAC" font-size="18" font-family="Segoe UI">SQL</text>
+opacity=".6"/>
 
 <!-- Bottom Wave -->
 <path
-d="M0 340 C250 300 500 380 750 340 C1000 300 1250 370 1500 330 L1500 400 L0 400 Z"
-fill="url(#wave)"/>
+d="M0 430 C300 380 600 470 900 420 C1200 370 1400 430 1500 390 L1500 500 L0 500Z"
+fill="#22C55E"
+opacity="0.18">
+
+<animate
+attributeName="d"
+dur="8s"
+repeatCount="indefinite"
+
+values="
+M0 430 C300 380 600 470 900 420 C1200 370 1400 430 1500 390 L1500 500 L0 500Z;
+
+M0 420 C250 470 700 360 900 430 C1200 470 1400 380 1500 420 L1500 500 L0 500Z;
+
+M0 430 C300 380 600 470 900 420 C1200 370 1400 430 1500 390 L1500 500 L0 500Z"/>
+
+</path>
 
 </svg>
