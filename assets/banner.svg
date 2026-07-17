@@ -1,59 +1,169 @@
-<svg width="1500" height="500" viewBox="0 0 1500 500" xmlns="http://www.w3.org/2000/svg">
+<svg width="1500" height="500" viewBox="0 0 1500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
 
 <defs>
 
 <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-<stop offset="0%" stop-color="#0d1117">
-<animate attributeName="stop-color" values="#0d1117;#111827;#0d1117" dur="8s" repeatCount="indefinite"/>
-</stop>
-<stop offset="100%" stop-color="#4f46e5">
-<animate attributeName="stop-color" values="#4f46e5;#2563eb;#4f46e5" dur="8s" repeatCount="indefinite"/>
-</stop>
+<stop offset="0%" stop-color="#050505"/>
+<stop offset="50%" stop-color="#0B1210"/>
+<stop offset="100%" stop-color="#111111"/>
 </linearGradient>
+
+<linearGradient id="nameGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+<stop offset="0%" stop-color="#7CFFB2">
+<animate attributeName="stop-color"
+values="#7CFFB2;#39FF88;#00C853;#39FF88;#7CFFB2"
+dur="8s"
+repeatCount="indefinite"/>
+</stop>
+
+<stop offset="100%" stop-color="#00C853"/>
+</linearGradient>
+
+<linearGradient id="wave" x1="0%" y1="0%" x2="100%" y2="0%">
+<stop offset="0%" stop-color="#39FF88" stop-opacity=".18"/>
+<stop offset="100%" stop-color="#00C853" stop-opacity=".45"/>
+</linearGradient>
+
+<filter id="glow">
+<feGaussianBlur stdDeviation="5" result="blur"/>
+<feMerge>
+<feMergeNode in="blur"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
 
 </defs>
 
+<!-- Background -->
+
 <rect width="1500" height="500" fill="url(#bg)"/>
 
-<text x="80" y="180"
-font-size="72"
-fill="white"
-font-family="Segoe UI"
-font-weight="700">
+<!-- Grid -->
+
+<g opacity=".05">
+
+<path d="M0 70H1500"/>
+<path d="M0 140H1500"/>
+<path d="M0 210H1500"/>
+<path d="M0 280H1500"/>
+<path d="M0 350H1500"/>
+<path d="M0 420H1500"/>
+
+</g>
+
+<!-- Floating dots -->
+
+<circle cx="1180" cy="80" r="3" fill="#39FF88">
+<animate attributeName="cy" values="80;65;80" dur="5s" repeatCount="indefinite"/>
+</circle>
+
+<circle cx="1320" cy="160" r="4" fill="#00C853">
+<animate attributeName="cy" values="160;145;160" dur="6s" repeatCount="indefinite"/>
+</circle>
+
+<circle cx="1410" cy="260" r="2" fill="#7CFFB2">
+<animate attributeName="cy" values="260;245;260" dur="4s" repeatCount="indefinite"/>
+</circle>
+
+<!-- Name -->
+
+<text
+x="90"
+y="170"
+font-size="74"
+font-weight="700"
+font-family="Segoe UI, Inter, Arial"
+fill="url(#nameGradient)"
+filter="url(#glow)">
+
 Ranga Arun Kumar
+
 </text>
 
+<!-- Title -->
+
 <text
-x="80"
-y="250"
-font-size="32"
-fill="#D1D5DB"
-font-family="Segoe UI">
+x="92"
+y="235"
+font-size="30"
+font-family="Segoe UI"
+fill="#FFFFFF">
+
 Software Engineer • Java Developer • Full Stack Developer
+
 </text>
+
+<!-- Skills -->
 
 <text
-x="80"
-y="310"
-font-size="26"
-fill="#60A5FA"
-font-family="Segoe UI">
-Data Analytics • Cybersecurity • AI • Data Structures
+x="92"
+y="285"
+font-size="23"
+font-family="Segoe UI"
+fill="#82F9B8">
+
+Data Analytics • Cybersecurity • AI • Data Structures & Algorithms
+
 </text>
 
-<path d="M0 430 C300 380 600 470 900 420 C1200 370 1400 430 1500 390 L1500 500 L0 500Z"
-fill="#2563EB" opacity="0.35">
+<!-- Divider -->
 
-<animate attributeName="d"
-dur="8s"
+<line
+x1="92"
+y1="315"
+x2="770"
+y2="315"
+stroke="#39FF88"
+stroke-opacity=".5"/>
+
+<!-- Quote -->
+
+<text
+x="92"
+y="360"
+font-size="20"
+font-family="Segoe UI"
+fill="#A1A1AA">
+
+Building scalable software with clean architecture & continuous learning.
+
+</text>
+
+<!-- Tech Pills -->
+
+<g font-family="Segoe UI" font-size="18">
+
+<rect x="980" y="120" rx="10" ry="10" width="95" height="42" fill="#101010" stroke="#1DB954"/>
+<text x="1008" y="147" fill="#7CFFB2">Java</text>
+
+<rect x="1095" y="120" rx="10" ry="10" width="105" height="42" fill="#101010" stroke="#1DB954"/>
+<text x="1118" y="147" fill="#7CFFB2">Python</text>
+
+<rect x="1220" y="120" rx="10" ry="10" width="95" height="42" fill="#101010" stroke="#1DB954"/>
+<text x="1243" y="147" fill="#7CFFB2">React</text>
+
+<rect x="1335" y="120" rx="10" ry="10" width="105" height="42" fill="#101010" stroke="#1DB954"/>
+<text x="1356" y="147" fill="#7CFFB2">Node.js</text>
+
+</g>
+
+<!-- Bottom Wave -->
+
+<path
+fill="url(#wave)"
+d="M0 420 C250 360 550 480 800 420 C1050 360 1280 470 1500 390 L1500 500 L0 500 Z">
+
+<animate
+attributeName="d"
+dur="10s"
 repeatCount="indefinite"
 
 values="
-M0 430 C300 380 600 470 900 420 C1200 370 1400 430 1500 390 L1500 500 L0 500Z;
+M0 420 C250 360 550 480 800 420 C1050 360 1280 470 1500 390 L1500 500 L0 500 Z;
 
-M0 420 C250 470 700 360 900 430 C1200 470 1400 380 1500 420 L1500 500 L0 500Z;
+M0 430 C250 480 600 360 850 430 C1100 490 1320 350 1500 420 L1500 500 L0 500 Z;
 
-M0 430 C300 380 600 470 900 420 C1200 370 1400 430 1500 390 L1500 500 L0 500Z"/>
+M0 420 C250 360 550 480 800 420 C1050 360 1280 470 1500 390 L1500 500 L0 500 Z"/>
 
 </path>
 
