@@ -1,4 +1,9 @@
 <p align="center">
+  <img src="./assets/banner.svg" width="100%" alt="Banner"/>
+</p>
+
+
+<p align="center">
   <img src="https://raw.githubusercontent.com/creatingMYworld/creatingMYworld/main/image.png" alt="GitHub Banner" width="100%">
 </p>
 
